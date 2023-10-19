@@ -7,7 +7,7 @@ const siteMetadata = {
     "Discover a treasure trove of expert insights on health, fitness, and well-being. Explore our latest articles covering nutrition, mental health, exercise, and more. Take a step towards a healthier you with our health and wellness blog.",
   language: "en-us",
   theme: "system", // system, dark or light
-  siteUrl: "http://localhost:3000", // your website URL
+  siteUrl: "https://afya-health.vercel.app/", // your website URL
   siteLogo: "/logo.png",
   socialBanner: "/social-banner.png", // add social banner in the public folder
   email: "codebucks27@gmail.com",
