@@ -70,14 +70,16 @@ export default function RootLayout({ children }) {
             document.documentElement.classList.remove('dark')
         }`}
         </Script>
-        <Script src="https://www.googletagmanager.com/gtag/js?id=G-VX9ERFBYGX" />
+        <Script
+          src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
+        />
         <Script id="google-analytics">
           {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
  
-          gtag('config', 'G-VX9ERFBYGX');
+          gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}', { page_path: window.location.pathname});
         `}
         </Script>
         <Header />

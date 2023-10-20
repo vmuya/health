@@ -1,6 +1,6 @@
 // please update required information
 const siteMetadata = {
-  title: "Afya Health - Health and Wellness Tips",
+  title: "Afya Health Blog - Health and Wellness Tips",
   author: "Afya Health Team",
   headerTitle: "Afya Health Blog",
   description:
@@ -10,7 +10,7 @@ const siteMetadata = {
   siteUrl: "https://afya-health.vercel.app/", // your website URL
   siteLogo: "/logo.png",
   socialBanner: "/social-banner.png", // add social banner in the public folder
-  email: "codebucks27@gmail.com",
+  email: "",
   github: "https://github.com/",
   twitter: "https://twitter.com/",
   facebook: "https://facebook.com",

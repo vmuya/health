@@ -24,7 +24,8 @@ export default function ContactForm() {
         className="outline-none border-0 p-0 mx-2 focus:ring-0 placeholder:text-center placeholder:text-lg border-b border-gray 
         focus:border-gray bg-transparent"
       />
-      and I want to discuss a potential blog post. You can email me at
+      and I want to provide feedback/suggest a future blog post. You can email
+      me at
       <input
         type="email"
         placeholder="your@email"
@@ -40,10 +41,10 @@ export default function ContactForm() {
         className="outline-none border-0 p-0 mx-2 focus:ring-0 placeholder:text-center placeholder:text-lg border-b border-gray 
         focus:border-gray bg-transparent"
       />
-      Here are some details about the blog post: <br />
+      Here is what I would like to share: <br />
       <textarea
         {...register("project details", {})}
-        placeholder="My project is about..."
+        placeholder="My suggestion is..."
         rows={3}
         className="w-full outline-none border-0 p-0 mx-0 focus:ring-0  placeholder:text-lg border-b border-gray 
         focus:border-gray bg-transparent"
