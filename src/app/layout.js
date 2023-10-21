@@ -1,10 +1,12 @@
-import "./globals.css";
+import Script from "next/script";
+
 import { cx } from "@/src/utils";
 import { Inter, Manrope } from "next/font/google";
 import Header from "@/src/components/Header";
 import Footer from "../components/Footer";
 import siteMetadata from "../utils/siteMetaData";
-import Script from "next/script";
+
+import "./globals.css";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -51,6 +53,7 @@ export const metadata = {
     title: siteMetadata.title,
     images: [siteMetadata.socialBanner],
   },
+  googleSiteVerification: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION,
 };
 
 export default function RootLayout({ children }) {
