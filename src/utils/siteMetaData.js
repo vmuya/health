@@ -6,6 +6,8 @@ const siteMetadata = {
   description:
     "Discover a treasure trove of expert insights on health, fitness, and well-being. Explore our latest articles covering nutrition, mental health, exercise, and more. Take a step towards a healthier you with our health and wellness blog.",
   language: "en-us",
+  keywords:
+    "health, fitness, wellness, nutrition, mental health, exercise, lifestyle, blog, afya health, afya health blog, afya health online, afya health online blog  Busy lifestyle health tips, Quick fitness routines, Time-efficient workouts, Healthy living for busy schedules, Stress management techniques, Nutrition for busy professionals, Work-life balance tips, Efficient exercise for busy people, Wellness for busy lives, Time-saving health hacks, Healthy habits for busy individuals, Fitness for working professionals, Quick and easy healthy recipes, Desk exercises for busy days, Mental health for busy schedules, Healthy snacks on the go, Time management for a healthy life, Office fitness tips, Productivity and health, Prioritizing self-care in a busy world",
   theme: "system", // system, dark or light
   siteUrl: "https://afyahealth.online/", // your website URL
   siteLogo: "/logo.png",
