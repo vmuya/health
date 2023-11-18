@@ -64,6 +64,10 @@ export default function RootLayout({ children }) {
           name="google-site-verification"
           content={process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION}
         />
+        <meta
+          name="google-adsense-account"
+          content={process.env.NEXT_PUBLIC_GOOGLE_ADSENSE}
+        />
       </head>
       <body
         className={cx(
