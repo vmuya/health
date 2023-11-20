@@ -70,9 +70,14 @@ const Header = () => {
           Home
         </Link>
 
+        <Link href="/categories/all" className="mx-2">
+          Blogs
+        </Link>
+
         <Link href="/contact" className="mx-2">
           Contact
         </Link>
+
         <button
           onClick={() => setMode(mode === "light" ? "dark" : "light")}
           className={cx(
@@ -97,9 +102,14 @@ const Header = () => {
           Home
         </Link>
 
+        <Link href="/categories/all" className="mx-2">
+          Blogs
+        </Link>
+
         <Link href="/contact" className="mx-2">
           Contact
         </Link>
+
         <button
           onClick={() => setMode(mode === "light" ? "dark" : "light")}
           className={cx(
